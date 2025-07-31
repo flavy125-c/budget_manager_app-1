@@ -82,7 +82,7 @@ AI Support Acknowledgement:
 ## 🙋 About Me
 
 **Name:** Flavian Simon  
-**Email:** your-email@example.com  
-**GitHub:** [your-username](https://github.com/your-username)
+**Email:** up2249816@example.com  
+**GitHub:** [flavy125-c]
 
 
