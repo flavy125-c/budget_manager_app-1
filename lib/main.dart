@@ -4,15 +4,12 @@ import 'package:flutter/foundation.dart' show kIsWeb;
 import 'widgets/auth_wrapper.dart'; // ✅ NEW: use the wrapper instead of hardcoding HomeScreen
 import 'screens/auth/login_screen.dart';     // ✅ Must match your folder structure
 import 'screens/auth/register_screen.dart';  // ✅ For RegisterScreen too
-import 'screens/widgets/auth_wrapper.dart';     // ✅ For AuthWrapper
+// ✅ For AuthWrapper
 import 'screens/set_budget_screen.dart';
-import 'package:hive_flutter/hive_flutter.dart'; // 🐝 import Hive
+
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-
-  await Hive.initFlutter(); // ✅ Add this line before Firebase
-  await Hive.openBox('settings'); // ✅ This opens your Hive box
 
   if (kIsWeb) {
     await Firebase.initializeApp(
@@ -53,3 +50,10 @@ class BudgetApp extends StatelessWidget {
     );
   }
 }
+
+
+// git init
+// git commit -m "first commit"
+// git branch -M main
+// git remote add origin https://github.com/flavy125-c/budget_manager_app-1.git
+// git push -u origin main
