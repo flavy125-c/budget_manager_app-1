@@ -68,16 +68,6 @@ lib/
 ├── main.dart
 
 
-Acknowledgements
-Thanks to Firebase and Flutter
-
-Project guided with support from OpenAI's ChatGPT for planning and explanations.
-
-⚖️ Academic Integrity
-This project was created for coursework under the guidance of University of Portsmouth’s AI usage policy. All coding and final implementation were completed independently, with AI only used for ideation, debugging support, and explanations.
-
-AI Support Acknowledgement:
-“During the development of this software project, I used OpenAI’s ChatGPT to brainstorm ideas, clarify technical concepts, and support code debugging. All final implementations and written content were developed by me.”
 
 ## 🙋 About Me
 
